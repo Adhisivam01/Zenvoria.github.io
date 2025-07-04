@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenvoria – Not for the Ordinary</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    body {font-family: 'Roboto', sans-serif; color: #333; background: #fff; line-height: 1.6;}
+    header {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    header video {
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      object-fit: cover;
+      z-index: -1;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero-btn {
+      padding: 0.8rem 2rem;
+      background: #fff;
+      color: #111;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 30px;
+      transition: 0.3s ease;
+    }
+    .hero-btn:hover {background: #f1f1f1;}
+
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .gallery-item {
+      width: 280px;
+    }
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    }
+    .gallery-item h4 {
+      margin-top: 0.8rem;
+      font-family: 'Playfair Display', serif;
+    }
+    .about, .why, .contact {
+      max-width: 800px;
+      margin: auto;
+    }
+    .contact p, .about p, .why p { margin: 1rem 0; }
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <video autoplay muted loop>
+    <source src="https://cdn.coverr.co/videos/coverr-fashion-catwalk-4782/1080p.mp4" type="video/mp4">
+  </video>
+  <div>
+    <h1>Not for the ordinary</h1>
+    <a href="#collections" class="hero-btn">Explore Now</a>
+  </div>
+</header>
+
+<section id="collections">
+  <h2>Our Collections</h2>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1602810310596-34f3b5a71eb2?auto=format&fit=crop&w=600&q=80" alt="T-Shirts">
+      <h4>T-Shirts</h4>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1584467735871-8f7b02a82b12?auto=format&fit=crop&w=600&q=80" alt="Formal Wear">
+      <h4>Formal Wear</h4>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1503342452485-86a3976f32d2?auto=format&fit=crop&w=600&q=80" alt="Casual">
+      <h4>Casual</h4>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1603324112047-32f7d6a3510c?auto=format&fit=crop&w=600&q=80" alt="Western Wear">
+      <h4>Western Wear</h4>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1580991967150-ef6f98d880b9?auto=format&fit=crop&w=600&q=80" alt="Kids Wear">
+      <h4>Kids Wear</h4>
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1618220048045-e8e6b51b2202?auto=format&fit=crop&w=600&q=80" alt="Luxury Dresses">
+      <h4>Luxury Dresses</h4>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2>About Zenvoria</h2>
+  <p>Zenvoria was founded by Adhi and Aswin in Tiruppur, India. Born from passion and precision, we blend modern trends with traditional craftsmanship to offer fashion that’s truly "not for the ordinary."</p>
+  <p>Our mission is to craft clothing that expresses personality and excellence — for those who dare to dress differently. We don’t just create outfits — we create identity.</p>
+</section>
+
+<section class="why" id="why">
+  <h2>Why Choose Zenvoria?</h2>
+  <p>We believe in individuality, sustainability, and artistry. Our garments are designed with care, crafted with quality, and inspired by everyday confidence.</p>
+  <p>We support bulk orders, B2B partnerships, and fully custom designs. Whether you’re a retailer or a fashion enthusiast — Zenvoria is built for you.</p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: <a href="mailto:zenvoriaa@gmail.com">zenvoriaa@gmail.com</a></p>
+  <p>Phone: <a href="tel:9159641242">9159641242</a>, <a href="tel:9600582845">9600582845</a></p>
+  <p>Instagram: <a href="https://instagram.com/zenvoria_india" target="_blank">@zenvoria_india</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Zenvoria. Made in Tiruppur with pride.
+</footer>
+
+</body>
+</html>
